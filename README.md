@@ -1,7 +1,7 @@
 # Hadoop Bash Completion #
 
 A script that adds bash completion for hadoop commands. It completes commands, switches and **HDFS paths**.
-HDFS paths are our contribution to the script which has a history from
+The latter is our main contribution to the script which has a history from
 [facebook](https://github.com/facebookarchive/hadoop-20/tree/master/src/contrib/bash-tab-completion)
 and [guozheng](https://github.com/guozheng/hadoop-completion).
 
@@ -11,7 +11,7 @@ Simplest way to use it, is to source it:
 
     source /path/to/hadoop-completion.sh
 
-For permanent use it, you should source it from your bashrc:
+For permanent use you should source it from your bashrc:
 
     echo "source /path/to/hadoop-completion.sh" >> ~/.bashrc
 
